@@ -1,0 +1,1 @@
+const name = prompt ('Come ti chiami?')
