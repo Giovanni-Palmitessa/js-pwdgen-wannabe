@@ -3,10 +3,11 @@ const properSurname = prompt(`Qual'è il tuo cognome?`);
 const favColor = prompt(`Qual'è il tuo colore preferito?`);
 const favNumber = prompt (`Qual'è il tuo numero preferito?`);
 
-const newPassword = properName + properSurname + favColor + favNumber;
+// const newPassword = properName + properSurname + favColor + favNumber;
+
+const newPassword = `<span style="font-size: 50px;">${properName}</span><span style="color: green;">${properSurname}</span><span style="color: red;">${favColor}</span><span style="font-size:80px;">${favNumber}</span>`;
 
 document.getElementById (`password`).innerHTML = `La tua password è: ${newPassword}`;
-
 
 
 const numero1 = parseInt(prompt(`Dammi un numero`));
