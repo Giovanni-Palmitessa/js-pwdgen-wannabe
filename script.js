@@ -12,4 +12,7 @@ document.getElementById (`password`).innerHTML = `La tua password è: ${newPassw
 const numero1 = parseInt(prompt(`Dammi un numero`));
 const numero2 = parseInt(prompt(`Dammi un altro numero`));
 
-document.getElementById (`fav-number`).innerHTML = numero1 + numero2 + 1
+const favNumbers = parseInt(numero1) + parseInt(numero2);
+
+document.getElementById (`fav-number`).innerHTML = `Il mio numero preferito è: ${favNumbers}`;
+
